@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+}
+
+:root {
+  --font-light: 300;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-black: 800;
+}
+
+body {
+  background: #c9d6ff;
+}
+
+.header img {
+  height: 65px;
+}
+.cart-icon {
+  height: 20px;
+  width: 45px;
+  cursor: pointer;
+}
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+}
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.navbar-list a {
+  color: black;
+  font-weight: var(--font-semibold);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* Hero */
+#hero {
+  margin-top: 35px;
+  padding: 75px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 50%;
+}
+.hero-info h1 {
+  font-size: 32px;
+  font-weight: var(--font-black);
+  color: black;
+  min-width: 500px;
+  width: 80%;
+}
+.hero-info p {
+  font-size: 14px;
+  width: 70%;
+  color: black;
+}
+.hero-info p > span {
+  font-weight: var(--font-black);
+}
+.btn-tienda,
+.btn-vermas {
+  font-size: 14px;
+  color: white;
+  background: black;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.hero-card {
+  background: rgb(150, 150, 240);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 350px;
+}
+.hero-card-info {
+  display: flex;
+  flex-direction: column;
+}
+.hero-card-top h3 {
+  font-weight: var(--font-semibold);
+}
+.hero-card-top span {
+  font-size: 14px;
+  color: white;
+  background: black;
+  padding: 5px;
+  border-radius: 10px;
+}
