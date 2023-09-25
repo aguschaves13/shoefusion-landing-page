@@ -180,3 +180,68 @@ main {
   font-weight: var(--font-light);
   font-size: 14px;
 }
+/* contacto */
+
+#contacto {
+  text-align: center;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  gap: 40px;
+}
+#contacto h2 {
+  font-size: 18px;
+  font-weight: var(--font-black);
+}
+.contacto-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contacto-info h3 {
+  font-size: 16px;
+  font-weight: var(--font-bold);
+}
+.contacto-ubicacion {
+  display: flex;
+  gap: 15px;
+}
+.contacto-ubicacion img {
+  height: 20px;
+}
+.contacto-ubicacion p {
+  font-size: 14px;
+  font-weight: var(--font-light);
+}
+.contacto-mail {
+  display: flex;
+  gap: 15px;
+}
+.contacto-mail img {
+  height: 20px;
+}
+.contacto-mail p {
+  font-size: 14px;
+  font-weight: var(--font-light);
+}
+.contacto-telefono {
+  display: flex;
+  gap: 15px;
+}
+.contacto-telefono img {
+  height: 20px;
+}
+.contacto-telefono p {
+  font-size: 14px;
+  font-weight: var(--font-light);
+}
+.contactanos {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
