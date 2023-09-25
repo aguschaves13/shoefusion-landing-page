@@ -205,6 +205,7 @@ main {
 .contacto-info h3 {
   font-size: 16px;
   font-weight: var(--font-bold);
+  color: rgb(2, 2, 83);
 }
 .contacto-ubicacion {
   display: flex;
@@ -244,4 +245,23 @@ main {
   gap: 30px;
   justify-content: center;
   align-items: center;
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+footer a,
+footer p {
+  color: rgb(2, 2, 83);
+  font-size: 14px;
+  font-weight: var(--font-semibold);
 }
