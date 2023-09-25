@@ -133,3 +133,50 @@ main {
 #info h3 {
   font-weight: var(--font-bold);
 }
+
+/* cards beneficios */
+
+#beneficios {
+  padding: 70px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+#beneficios h2 {
+  font-size: 18px;
+  font-weight: var(--font-bold);
+}
+.beneficios-card-conteiner {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.beneficios-card {
+  text-align: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  padding: 40px 30px;
+  max-width: 300px;
+  height: 300px;
+}
+.beneficios-card img {
+  height: 50px;
+}
+.beneficios-card h3 {
+  font-weight: var(--font-semibold);
+  font-size: 16px;
+}
+.beneficios-card p {
+  font-weight: var(--font-light);
+  font-size: 14px;
+}
