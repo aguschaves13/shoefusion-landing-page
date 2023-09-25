@@ -17,16 +17,40 @@
 }
 
 body {
-  background: #c9d6ff;
+  background: rgb(166, 197, 243);
 }
 
 .header img {
   height: 65px;
 }
 .cart-icon {
-  height: 20px;
-  width: 45px;
+  height: 15px;
+  width: 30px;
   cursor: pointer;
+}
+
+/* ocultamos menu */
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+  display: none;
+}
+/* carrito */
+.cart {
+  position: absolute;
+  top: 65px;
+  background: rgb(108, 108, 253);
+  padding: 50px 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+#cart-tpggle:checked ~ .cart {
+  display: flex;
 }
 .header {
   background: white;
@@ -76,7 +100,7 @@ main {
 .hero-info h1 {
   font-size: 32px;
   font-weight: var(--font-black);
-  color: black;
+  color: rgb(2, 2, 83);
   min-width: 500px;
   width: 80%;
 }
@@ -92,7 +116,7 @@ main {
 .btn-vermas {
   font-size: 14px;
   color: white;
-  background: black;
+  background: rgb(2, 2, 83);
   padding: 8px 20px;
   border-radius: 10px;
 }

@@ -5,22 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShoeFusion</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <header class="header">
       <img src="./Assets/Img/Logo pagina.jpeg" alt="logo ShoeFusion" />
       <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img src="./Assets/Img/menu.jpg" alt="menu" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">ShoeFusion</a></li>
           <li><a href="#">Redes</a></li>
           <li><a href="#">Contactanos</a></li>
         </ul>
-        <img
-          src="./Assets/Img/carrito de compras.png"
-          alt="Carrito de compras"
-          class="cart-icon"
-        />
+        <label for="cart-toggle" class="cart-label">
+          <img
+            src="./Assets/Img/carrito de compras.png"
+            alt="Carrito de compras"
+            class="cart-icon"
+          />
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <div class="cart">
+          <h2>Tus Compras</h2>
+        </div>
       </nav>
     </header>
     <main>

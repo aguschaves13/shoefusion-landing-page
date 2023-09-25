@@ -1,0 +1,94 @@
+/* tablet */
+@media (max-width: 992px) {
+  .menu-label {
+    display: flex;
+    order: 2;
+  }
+  .menu-label img {
+    height: 29px;
+    width: 40px;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .navbar-list {
+    position: absolute;
+    top: 65px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    flex-direction: column;
+    align-items: start;
+    background: rgb(108, 108, 253);
+    border: 2px solid rgb(2, 2, 83);
+    border-top: 0;
+    padding: 45px 30px;
+    border-radius: 0 0 15px 15px;
+    display: none;
+  }
+  #menu-toggle:checked + .navbar-list {
+    display: flex;
+  }
+  /* carrito */
+  .cart {
+    position: absolute;
+    top: 65px;
+    background: rgb(108, 108, 253);
+    padding: 50px 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  #cart-tpggle:checked ~ .cart {
+    display: flex;
+  }
+  /* hero */
+  .hero-info {
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+  }
+  .hero-card {
+    display: none;
+  }
+  .hero-info h1 {
+    min-width: unset;
+  }
+  .hero-info p {
+    max-width: 500px;
+  }
+  /* info */
+  #info {
+    text-align: center;
+    max-width: 700px;
+  }
+  /* beneficios */
+
+  #beneficios p {
+    text-align: center;
+    max-width: 700px;
+  }
+  .beneficios-card-conteiner {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+/* celular */
+@media (max-width: 578px) {
+  /* info */
+
+  .hero-info p {
+    line-height: 30px;
+  }
+  /* info */
+  #info p {
+    line-height: 30px;
+  }
+  /* beneficios */
+  #beneficios p {
+    line-height: 30px;
+  }
+}
